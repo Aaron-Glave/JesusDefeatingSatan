@@ -12,6 +12,7 @@
         android:id="@+id/bibleverse"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:contentDescription="@string/Bibleverses"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/jesus_defeating_satan" />
@@ -23,7 +24,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         android:background="@color/thin"
-        android:text="Hi God!"
+        android:text="@string/hi_god"
         />
 
     <TextView

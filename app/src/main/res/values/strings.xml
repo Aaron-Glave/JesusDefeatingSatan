@@ -1,4 +1,6 @@
 <resources>
     <string name="app_name">Jesus Defeating Satan</string>
     <string name="reminder">God is stronger than Satan!</string>
+    <string name="Bibleverses">Matthew 4:7 to 11</string>
+    <string name="hi_god">Hi God!</string>
 </resources>
