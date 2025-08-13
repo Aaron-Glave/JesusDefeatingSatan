@@ -21,11 +21,14 @@
         android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        android:background="@color/thin"
+        android:background="@android:color/transparent"
+        android:backgroundTint="@android:color/transparent"
         android:text="@string/hi_god"
-        />
+        android:textColor="@color/purple"
+        android:paddingStart="0dp"
+        android:paddingEnd="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/hi_guideline" />
 
     <TextView
         android:id="@+id/aarons_message"
@@ -39,6 +42,13 @@
         android:visibility="invisible"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/hi_guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.025" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
